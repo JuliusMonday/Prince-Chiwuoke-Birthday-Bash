@@ -1,0 +1,116 @@
+/* hiding mobile menu icon */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile-icon{
+    display: none;
+}
+.navbar{
+    width: 100%;
+    background-color: var(--royal-blue-background);
+}
+.navbar-container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.navbar-logo > img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+.nav-links{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+}
+.nav-links:hover{
+    color: var(--blush-pink);
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-general {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px; /* Adds padding inside the container */
+    max-width: 1200px; /* Sets a maximum width */
+    width: 100%; /* Ensures it takes full width */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+@media screen and (max-width:769px) {
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style: none;
+        padding: 0 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        color: #090C0E;
+        position:fixed;
+        top:90px;
+        right: -400px;
+        width: 300px;
+        height:100vh;
+        background-color: #f5f5f5;
+        opacity: 0.9;
+        padding: 40px 0 0 10px;
+        z-index: 100;
+        margin-top: -20px;
+    }
+    .nav-menu.active{
+        right: 0px;
+    }
+    .mobile-icon{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .nav-item{
+        color: #090C0E;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        padding: 0 10px;
+        margin-bottom: 25px;
+    }
+}
