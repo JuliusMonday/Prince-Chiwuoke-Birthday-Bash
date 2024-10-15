@@ -1,0 +1,92 @@
+
+.highlight-section{
+    background-color: #FFFFF5;
+    
+}
+.highlight-container{
+
+    display: flex;
+    gap: 50px;
+}
+.content-highlight{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-highlight > h2{
+    font-size: 32px;
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.content-highlight > p{
+    font-size: 17px;
+    width: 500px;
+    margin-bottom: 35px;
+    font-family: var(--font-roboto);
+    
+}
+.discover-more-btn{
+    background-color: var(--coral);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: var(--font-lato);
+    cursor: pointer;
+    width: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.discover-more-btn:hover{
+    background-color: var(--green-color);
+    color: #fff;
+   
+}
+.picture-section{
+    width: 500px;
+    height: auto;
+    position: relative;
+}
+.image-div{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.event-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+}
+.bottom-box{
+    background-color: #EFF0E7;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    bottom: -90px;
+    left: -100px;
+    border-top-right-radius: 15px;
+}
+.bottom-box >.love-icon{
+    color: #fff;
+    font-size: 70px;
+}
+.bottom-box-header{
+    font-size: 42px;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.bottom-box-p{
+    font-size: 18px;
+    font-family: var(--font-lato);
+    color: var(--green-color);
+    line-height: 1.7;
+    padding-bottom: 30px;
+}

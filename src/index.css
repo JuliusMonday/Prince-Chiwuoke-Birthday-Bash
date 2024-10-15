@@ -2,6 +2,7 @@
 /* ROOT COLORS */
 :root {
   --royal-blue-background: #4169E1; /* Royal Blue */
+  --dark-grey:#666666;
   --blush-pink: #FFC0CB; /* Blush Pink */
   --gold: #FFD700; /* Gold */
   --silver: #C0C0C0; /* Silver (Ash Grey) */
@@ -9,6 +10,8 @@
   --light-grey: #D3D3D3; /* Light Grey */
   --lavender: #E6E6FA; /* Lavender */
   --coral: #FF7F50; /* Coral */
+  --green-color:#4D6B15; /* Green */
+  --text-color:#0F172A; /* Dark/Light */
   --font-poppins: 'Poppins', sans-serif;
   --font-roboto: 'Roboto', sans-serif;
   --font-lato: 'Lato', sans-serif;
@@ -19,5 +22,5 @@
   padding: 2rem;
 }
 body{
-  background-color: var(--light-grey);
+  background-color: #FFFFFF;
 }

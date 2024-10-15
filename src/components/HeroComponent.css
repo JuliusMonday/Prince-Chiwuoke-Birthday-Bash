@@ -1,5 +1,105 @@
 .hero-component-cont{
-    background-color: var(--blush-pink);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px; /* Space between columns */
     width: 100%;
     height: 100vh;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 600px;
+}
+.hearder-text{
+    font-size: 60px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #090C0E;
+    line-height: 65px;
+    padding-bottom: 25px;
+}
+.sub-text{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.hero-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.hero-button1{
+    background-color: #E9EBE2;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.hero-button1:hover{
+    background-color: #4D6B15;
+}
+.green-txt{
+    color:#4D6B15;
+}
+.hero-button1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font-roboto);
+    text-shadow: 2px #090C0E;
+}
+
+.hero-button2{
+    padding: 15px 20px;
+    border: none;
+    background-color: transparent;
+    transition: 0.5s all ease-in-out;
+    align-items: center;
+    cursor: pointer;
+}
+.hero-button2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+    font-family: var(--font-roboto);
+    text-shadow: 2px #090C0E;
+}
+.hero-arrow{
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.hero-button2:hover {
+    background-color: #666666; /* Darker background on hover */
+    border-radius: 7px;
+}
+.hero-button2:hover a{
+    color: white; /* White text on hover */
+    text-shadow: none; /* Remove shadow on hover */
+}
+.hero-button2:hover .hero-arrow {
+    transform: translateX(5px); /* Move arrow to the right */
+}
+.hero-photo{
+    justify-content: center;
+    border:none;
+    border-radius: 8px;
+    width: 600px;
+    padding: 20px;
+}
+.image-hero {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 18px;
+
 }

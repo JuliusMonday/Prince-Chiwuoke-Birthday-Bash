@@ -1,0 +1,46 @@
+.footer-section{
+    height: 40vh !important;
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigations{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px !important;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.navigations > h3{
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.navigations > h3:hover {
+    color: #AAB884; /* Change color on hover */
+}
+.socials, .copyright, .navigations{
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the icons */
+    margin: 20px 0; /* Margin around the socials */
+}
+.socials{
+    margin-top: 40px;
+}
+.social-icon {
+    font-size: 30px; /* Size of the icons */
+    color: #4E6C17; /* Icon color */
+    margin: 0 15px; /* Space between icons */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-icon:hover {
+    color: #AAB884; /* Change color on hover */
+}
+.copyright{
+    color: #636F80;
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    margin-top: 20px;
+}

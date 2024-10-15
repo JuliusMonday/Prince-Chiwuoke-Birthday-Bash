@@ -2,7 +2,12 @@ import ScrollReveal from 'scrollreveal';
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import HeroComponent from '../components/HeroComponent';
-
+import EvenHighlightSection from '../components/EvenHighlightSection';
+import InfoSection from "../components/InfoSection"
+import Gallery from '../components/Gallery';
+import Quote from '../components/Quote';
+import GetIntouch from '../components/GetIntouch';
+import Footer from '../components/Footer';
 const Home = ()=>{
     const scrollRevealOption = {
         distance: '50px',
@@ -21,14 +26,18 @@ const Home = ()=>{
 
     }, []);
     useEffect(() => {
-        document.title = "Home - PCBB '24";
+        document.title = "Homepage - PCBB '24";
       }, []);
     return(
         <>
         <Navbar/>
         <HeroComponent className="containerWrapper"/>
-       
-        
+        <EvenHighlightSection className="containerWrapper"/>
+        <InfoSection className="containerWrapper"/>
+        <Gallery/>
+        <Quote/>
+        <GetIntouch/>
+        <Footer/>
         </>
     );
 };
