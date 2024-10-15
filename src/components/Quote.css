@@ -57,3 +57,77 @@
 .person > p{
     color: #ACBA93;
 }
+
+
+@media (max-width: 1024px) {
+    .quote-container {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .quote-sub-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
+        gap: 30px; /* Reduce gap between items */
+    }
+
+    .quote-image {
+        width: 100%; /* Full width for the image container */
+    }
+
+    .quote-image > img {
+        height: auto; /* Allow height to adjust based on aspect ratio */
+        transform: translate(0, 0); /* Reset transform for better fit */
+    }
+
+    .quote-content {
+        margin-top: -40px; /* Adjust margin for better alignment */
+        text-align: center; /* Center align text */
+    }
+
+    .quote-header {
+        width: 90%; /* Increase width for better readability */
+        font-size: 20px; /* Smaller font size for tablets */
+        margin-top: -30px; /* Adjust margin */
+    }
+
+    .quote-icon {
+        font-size: 80px; /* Smaller icon size for tablets */
+        margin: 10px; /* Adjust margins */
+    }
+
+    .person {
+        font-size: 14px; /* Smaller font size for person details */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .person > h3 {
+        font-size: 16px; /* Smaller font size for person's name */
+    }
+
+    .person > p {
+        font-size: 14px; /* Smaller font size for person's description */
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-header {
+        font-size: 18px; /* Further reduce font size for mobile */
+    }
+
+    .quote-icon {
+        font-size: 60px; /* Smaller icon size for mobile */
+    }
+
+    .person {
+        font-size: 12px; /* Smaller font size for person details on mobile */
+    }
+
+    .person > h3 {
+        font-size: 14px; /* Smaller font size for person's name on mobile */
+    }
+
+    .person > p {
+        font-size: 12px; /* Smaller font size for person's description on mobile */
+    }
+}

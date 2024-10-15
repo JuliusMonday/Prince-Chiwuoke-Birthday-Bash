@@ -103,3 +103,48 @@
     border-radius: 18px;
 
 }
+
+@media (max-width: 768px) {
+    .hero-component-cont {
+        grid-template-columns: 1fr; /* Stack columns */
+        height: auto; /* Adjust height for smaller screens */
+        padding: 20px; /* Add padding */
+    }
+
+    .hero-content {
+        width: auto; /* Allow content to take full width */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .header-text {
+        font-size: 36px; /* Smaller font size */
+        line-height: 40px; /* Adjust line height */
+        padding-bottom: 15px; /* Reduce padding */
+    }
+
+    .sub-text {
+        font-size: 14px; /* Smaller font size */
+        padding-bottom: 15px; /* Reduce padding */
+    }
+
+    .hero-btns {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width */
+        padding-top: 15px; /* Adjust padding */
+    }
+
+    .hero-button1, .hero-button2 {
+        width: 100%; /* Full width buttons */
+        margin-bottom: 10px; /* Space between buttons */
+    }
+
+    .hero-button1 a,
+    .hero-button2 a {
+        font-size: 14px; /* Smaller font size for links */
+    }
+
+    .hero-photo {
+        width: 100%; /* Full width for images */
+        padding: 10px; /* Reduce padding */
+    }
+}

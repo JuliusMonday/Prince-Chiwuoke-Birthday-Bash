@@ -53,3 +53,44 @@
 .below-txt2{
     padding-top: 180px;
 }
+
+@media (max-width: 768px) {
+    .get-intouch-container {
+        margin-top: 50px; /* Reduce top margin */
+        height: auto; /* Allow container to adjust height */
+        padding: 20px; /* Add padding for better spacing */
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .get-intouch-sub-container {
+        flex-direction: column; /* Stack sub-container items vertically */
+        gap: 30px; /* Reduce gap between sections */
+    }
+
+    .left-section,
+    .right-section {
+        flex: none; /* Remove flex-grow */
+        width: 100%; /* Full width for both sections */
+        text-align: center; /* Center text for better readability */
+    }
+
+    .left-section > h1 {
+        font-size: 32px; /* Smaller font size */
+    }
+
+    .right-section p {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .text1, h2 {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .below-txt {
+        padding-top: 40px; /* Reduce padding */
+    }
+
+    .below-txt2 {
+        padding-top: 80px; /* Reduce padding */
+    }
+}

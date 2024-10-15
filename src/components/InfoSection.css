@@ -35,3 +35,35 @@
     width: 60%;
 
 }
+
+@media (max-width: 768px) {
+    .info-container {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .info-items {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+        margin-top: 20px; /* Reduce top margin */
+        margin-bottom: 20px; /* Reduce bottom margin */
+    }
+
+    .info-item h1 {
+        font-size: 24px; /* Smaller font size */
+    }
+
+    .info-item p {
+        font-size: 16px; /* Smaller font size */
+    }
+
+    .photo-info h2 {
+        font-size: 24px; /* Smaller font size */
+        padding-top: 30px; /* Reduce top padding */
+        padding-bottom: 15px; /* Reduce bottom padding */
+    }
+
+    .photo-info p {
+        font-size: 16px; /* Smaller font size */
+        width: 100%; /* Full width for better readability */
+    }
+}

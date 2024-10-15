@@ -90,3 +90,57 @@
     line-height: 1.7;
     padding-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .highlight-container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 30px; /* Reduce gap between items */
+    }
+
+    .content-highlight {
+        width: 100%; /* Full width for content */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .content-highlight > h2 {
+        font-size: 24px; /* Smaller font size for headings */
+    }
+
+    .content-highlight > p {
+        font-size: 16px; /* Smaller font size for paragraphs */
+        width: 100%; /* Full width for paragraphs */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+
+    .discover-more-btn {
+        width: 100%; /* Full width for button */
+        font-size: 16px; /* Smaller font size for button */
+    }
+
+    .picture-section {
+        width: 100%; /* Full width for picture section */
+        height: auto; /* Allow height to adjust based on content */
+        position: relative; /* Maintain positioning */
+    }
+
+    .image-div {
+        width: 100%; /* Full width for image div */
+        height: auto; /* Allow height to adjust based on aspect ratio */
+    }
+
+    .bottom-box {
+        width: 100%; /* Full width for bottom box */
+        height: auto; /* Allow height to adjust based on content */
+        left: 0; /* Align to the left */
+        bottom: -60px; /* Adjust position */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .bottom-box-header {
+        font-size: 24px; /* Smaller font size for bottom box header */
+    }
+
+    .bottom-box-p {
+        font-size: 16px; /* Smaller font size for bottom box paragraph */
+    }
+}

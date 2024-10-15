@@ -31,3 +31,31 @@ h3 {
     color: #333; /* Color for titles */
     font-family: var(--font-roboto);
 }
+
+@media (max-width: 768px) {
+    .photo-container {
+        padding: 10px; /* Reduce padding for smaller screens */
+        flex-direction: column; /* Stack photos vertically */
+        overflow-x: visible; /* Disable horizontal scrolling */
+    }
+
+    .photo {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        text-align: center; /* Center align text for better presentation */
+    }
+
+    .photo-img {
+        width: 100%; /* Full width for images */
+        height: auto; /* Allow height to adjust based on width */
+    }
+
+    .photo-img img {
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    h3 {
+        font-size: 14px; /* Smaller font size for titles */
+        margin-top: 5px; /* Reduce space between image and title */
+    }
+}
