@@ -6,7 +6,7 @@ const HeroComponent = () => {
   return (
     <div className='hero-component-cont containerWrapper'>
       <div className="hero-content">
-        <p className="hearder-text">
+        <p className="header-text">
           <span className='green-txt'>Welcome</span> to Prince Chiwuoke Grand <span className='green-txt'>Celebration!</span>
         </p>
         <p className="sub-text">Join us in celebrating a momentous occasion filled with joy, love, and cherished memories. Let's make this day unforgettable together!</p>

@@ -64,9 +64,10 @@
     }
 
     .countdown-timer {
-        flex-direction: column; /* Stack time units vertically */
+        flex-direction: row; /* Stack time units vertically */
         align-items: center; /* Center align items */
         margin: 30px 0; /* Adjust margin */
+        font-size: 13px;
     }
 
     .time-unit {

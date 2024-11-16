@@ -1,79 +1,98 @@
-.footer-section{
-    height: 40vh !important;
+.footer-section {
+    height: auto; /* Allow height to adjust based on content */
     background-color: white !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px; /* Add padding for better spacing */
+    overflow: hidden; /* Prevent overflow */
 }
-.navigations{
+
+.navigations {
     display: flex;
-    justify-content: space-between;
-    gap: 100px !important;
+    justify-content: center; /* Center the navigation items */
+    gap: 20px; /* Reduce gap between items */
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px; /* Reduce bottom margin */
 }
-.navigations > h3{
+
+.navigations > h3 {
     cursor: pointer;
     transition: 0.5s linear;
+    font-size: 16px; /* Adjust font size for better visibility */
 }
+
 .navigations > h3:hover {
     color: #AAB884; /* Change color on hover */
 }
-.socials, .copyright, .navigations{
+
+.socials, .copyright {
     display: flex; /* Use flexbox for horizontal alignment */
     justify-content: center; /* Center the icons */
-    margin: 20px 0; /* Margin around the socials */
+    align-items: center; /* Center align items */
+    margin: 10px 0; /* Margin around the socials */
+    flex-direction: row; /* Stack items vertically */
 }
-.socials{
-    margin-top: 40px;
+
+.socials {
+    margin-top: 20px; /* Adjust margin */
 }
+
 .social-icon {
     font-size: 30px; /* Size of the icons */
     color: #4E6C17; /* Icon color */
-    margin: 0 15px; /* Space between icons */
+    margin: 0 10px; /* Space between icons */
     transition: color 0.3s; /* Smooth color transition */
 }
 
 .social-icon:hover {
     color: #AAB884; /* Change color on hover */
 }
-.copyright{
+
+.copyright {
     color: #636F80;
     font-family: var(--font-roboto);
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 14px; /* Adjust font size for copyright text */
+    margin-top: 10px; /* Adjust margin */
+    text-align: center; /* Center align text */
 }
 
+/* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .footer-section {
-        height: auto; /* Allow height to adjust based on content */
-        padding: 20px; /* Add padding for better spacing */
+        padding: 15px; /* Add padding for better spacing */
+        width: 100%;
     }
 
     .navigations {
-        flex-direction: column; /* Stack navigation items vertically */
-        gap: 20px; /* Reduce gap between items */
+        flex-direction: row; /* Stack navigation items vertically */
+        gap: 5px; /* Reduce gap between items */
         align-items: center; /* Center align items */
-        margin-bottom: 20px; /* Reduce bottom margin */
+        margin-bottom: 15px; /* Reduce bottom margin */
+        font-size:12px;
+        display:none !important;
     }
 
     .navigations > h3 {
-        font-size: 18px; /* Smaller font size for titles */
+        font-size: 14px; /* Smaller font size for titles */
     }
 
     .socials, .copyright {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: row; /* Keep items in a row */
         align-items: center; /* Center align items */
-        margin: 10px 0; /* Adjust margins */
+        margin: 5px 0; /* Adjust margins */
+        font-size: 12px; /* Adjust font size */
     }
 
     .social-icon {
-        font-size: 24px; /* Smaller icon size */
-        margin: 5px; /* Adjust space around icons */
+        font-size: 20px; /* Smaller icon size */
+        margin: 0 5px; /* Adjust space around icons */
     }
 
     .copyright {
-        font-size: 14px; /* Smaller font size for copyright text */
+        font-size: 12px; /* Smaller font size for copyright text */
+        width: 100%; /* Full width for copyright text */
+        text-align: center; /* Center align text */
     }
 }

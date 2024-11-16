@@ -23,9 +23,6 @@ const Navbar = () => {
           <li className="nav-item">
             <Link to="/rsvp" className="nav-links" onClick={handleClick}>RSVP</Link>
           </li>
-          <li className="nav-item" id="contact">
-          <Link to="/contact" className="nav-links" onClick={handleClick}>Contact Us</Link>
-          </li>
         </ul>
          <div className="mobile-icon" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
