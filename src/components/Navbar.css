@@ -98,6 +98,7 @@
     }
     .nav-menu.active{
         right: 0px;
+        margin-top: -25px;
     }
     .mobile-icon{
         display: block;
@@ -105,12 +106,15 @@
         cursor: pointer;
     }
     .nav-item{
-        color: #090C0E;
+        
         font-size: 1rem;
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 1px;
         padding: 0 10px;
         margin-bottom: 25px;
+    }
+    .nav-links{
+        color: black;
     }
 }

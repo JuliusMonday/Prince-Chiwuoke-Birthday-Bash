@@ -1,0 +1,121 @@
+/* EventDetails.css */
+
+.event {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #E4E6DD;
+}
+
+.event-details1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px var(--green-color);
+}
+.event-details1 >h1{
+    font-family: var(--font-poppins);
+    font-size: 30px;
+    font-weight: 600;
+}
+.details1 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.details1 > p{
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    padding-top:20px;
+}
+.details1 p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.details2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.details-item {
+    text-align: center;
+}
+
+.details-item h2 {
+    font-size: 1.5rem;
+    color: var(--green-color);
+}
+
+.details-item span {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.details3 {
+    text-align: center;
+}
+
+.details3 img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.calendar {
+    font-size: 1.2rem;
+    color: #d9534f; /* Bootstrap Danger Color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar span {
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .event {
+        font-size: 1.5rem; /* Reduce font size */
+        margin: 10px 0; /* Adjust margin */
+    }
+
+    .event-details1 {
+        padding: 15px; /* Reduce padding */
+        border: none; /* Remove border for a cleaner look */
+        box-shadow: none; /* Remove shadow for simplicity */
+    }
+
+    .event-details1 > h1 {
+        font-size: 24px; /* Reduce header font size */
+    }
+
+    .details1 > p {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+
+    .details2 {
+        flex-direction: column; /* Stack details vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .details-item {
+        margin-bottom: 20px; /* Add space between items */
+    }
+
+    .details-item h2 {
+        font-size: 1.2rem; /* Reduce heading font size */
+    }
+
+    .calendar {
+        font-size: 1rem; /* Adjust calendar font size */
+    }
+
+    .details3 img {
+        margin: 10px 0; /* Reduce image margin */
+    }
+}

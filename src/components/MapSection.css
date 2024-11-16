@@ -1,0 +1,52 @@
+/* MapSection.css */
+.map-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    max-width: 1300px;
+    gap: 70px;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+    font-family: var(--font-roboto);
+}
+
+.map {
+    flex: 1;
+}
+.map button{
+    background-color: var(--green-color);
+    color: var(--silver2);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        flex-direction: column; /* Stack sections vertically */
+        padding: 10px; /* Reduce padding */
+        margin: 30px auto; /* Adjust margin */
+        gap: 30px; /* Reduce gap between sections */
+    }
+
+    .text-section {
+        padding-right: 0; /* Remove right padding */
+        font-size: 0.9rem; /* Adjust font size for better readability */
+    }
+
+    .map {
+        width: 100%; /* Ensure the map takes full width */
+    }
+
+    .map button {
+        width: 100%; /* Make the button full width */
+        padding: 12px; /* Increase padding for easier tapping */
+        font-size: 1rem; /* Adjust font size */
+    }
+}

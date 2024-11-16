@@ -1,0 +1,32 @@
+.container-error{
+    display: grid;
+    place-content: center;
+    background-color: var(--coral);
+    text-align: center;
+    margin: 140px auto;
+    border: 3px solid var(--green-color);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+.text{
+    color: var(--green-color);
+}
+.container-error >p{
+    color: var(--green-color);
+}
+.back-btn{
+    width: fit-content;
+    padding: 20px 10px;
+    background-color: var(--green-color);
+    margin-left: 90px;
+    position: absolute;
+    top: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.back-btn > a{
+    text-decoration: none;
+    color: var(--coral);
+}

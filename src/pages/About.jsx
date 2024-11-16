@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
-
+import "./About.css"
 const About = ()=>{
     useEffect(() => {
         document.title = "About Sir Prince - PCBB '24";
@@ -8,7 +8,7 @@ const About = ()=>{
     return(
         <>
         <Navbar/>
-        <h1 className="header">About us page</h1>
+        
         </>
     );
 };

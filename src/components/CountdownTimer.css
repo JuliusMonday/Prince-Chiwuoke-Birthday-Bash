@@ -1,0 +1,87 @@
+.countdown-section {
+    padding: 50px;
+    background: linear-gradient(to right, var(--green-color), #feb47b);
+    color: white;
+    height: 70vh;
+  }
+  .countdown-section-h1{
+    font-size: 60px;
+    font-family: var(--font-poppins);
+  }
+  .countdown-section-p{
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    color: var(--silver2);
+    width: 50%;
+  }
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .time-unit {
+    margin: 0 15px;
+    font-size: 2rem;
+    
+  }
+  .time-unit span{
+    font-family: var(--font-poppins)
+  }
+  .time-unit span:first-child {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+
+  }
+  
+  .details {
+    margin-top: 90px;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 70px;
+    font-family: var(--font-roboto);
+    font-style: italic;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+
+  @media (max-width: 768px) {
+    .countdown-section {
+        padding: 30px; /* Reduce padding */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .countdown-section-h1 {
+        font-size: 36px; /* Reduce header font size */
+    }
+
+    .countdown-section-p {
+        font-size: 16px; /* Adjust paragraph font size */
+        width: 100%; /* Make paragraph full width */
+        text-align: center; /* Center align text */
+    }
+
+    .countdown-timer {
+        flex-direction: column; /* Stack time units vertically */
+        align-items: center; /* Center align items */
+        margin: 30px 0; /* Adjust margin */
+    }
+
+    .time-unit {
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+        font-size: 1.5rem; /* Reduce font size */
+    }
+
+    .time-unit span:first-child {
+        font-size: 2rem; /* Adjust font size for the first child */
+    }
+
+    .details {
+        margin-top: 30px; /* Reduce margin */
+        flex-direction: column; /* Stack details vertically */
+        align-items: center; /* Center align items */
+        gap: 20px; /* Reduce gap between items */
+    }
+}
