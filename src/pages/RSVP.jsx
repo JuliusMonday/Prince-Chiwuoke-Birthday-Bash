@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "../components/Navbar";
-import CountdownTimer from "../components/countDownTimer";
+import CountdownTimer from "../components/countdownTimer";
 import EventDetails from "../components/eventDetails";
 import MapSection from "../components/MapSection";
 import Footer from "../components/Footer";

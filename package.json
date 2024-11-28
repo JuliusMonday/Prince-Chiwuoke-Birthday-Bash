@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "serve -s dist"
+    "serve": "serve -s dist",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
