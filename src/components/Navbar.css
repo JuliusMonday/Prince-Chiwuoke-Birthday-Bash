@@ -105,11 +105,13 @@
         display: block;
         font-size: 25px;
         cursor: pointer;
+        color: black;
+        font-weight: 700;
     }
     .nav-item{
         
         font-size: 1rem;
-        font-weight: 600;
+        font-weight: 700;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 1px;
         padding: 0 10px;
@@ -117,5 +119,6 @@
     }
     .nav-links{
         color: black;
+        font-weight: bold;
     }
 }
