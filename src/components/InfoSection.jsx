@@ -19,7 +19,7 @@ const InfoSection = () => {
       </div>
       <div className="photo-info">
             <h2>Photo Gallery</h2>
-            <p>Take a trip down memory lane with photos from past celebrations and get a sneak peek of what’s to come at Uncle John's Grand Celebration.</p>
+            <p>Take a trip down memory lane with photos from past celebrations and get a sneak peek of what’s to come at <b>Prince Chiwuoke's</b> Grand Celebration.</p>
       </div>
     </div>
   )

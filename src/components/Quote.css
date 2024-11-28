@@ -15,7 +15,7 @@
     height: auto;
 }
 .quote-image > img{
-    width: 100%;
+    width: 70%;
     height: 70vh;
     transform: translate(-0%, -14%);
     border-radius: 15px;

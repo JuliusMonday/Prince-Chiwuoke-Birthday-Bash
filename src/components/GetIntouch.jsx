@@ -16,13 +16,13 @@ const GetIntouch = () => {
                 <h2>Wanna Have Call With Us?</h2>
                 <p>
                     Call Us at:<br/>
-                    <a href="tel:08001234567">0800 123 4567</a>
+                    <a href="tel:07068209902">07068209902</a>
                 </p>
                 <div className="below-txt2">
                     <h2>Want to Email Us?</h2>
                     <p>
                         Email Us at:<br/>
-                        <a href="mailto:prince@example.com">prince@example.com</a>
+                        <a href="mailto:liftedstone@gmail.com">liftedstone@gmail.com</a>
                     </p>
                 </div>
                 

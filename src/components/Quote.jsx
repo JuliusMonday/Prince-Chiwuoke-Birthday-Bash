@@ -1,4 +1,4 @@
-import QuotePhoto from "../assets/quote-photo.jpeg"
+import QuotePhoto from "../assets/mainPhotos/picture14.jpeg"
 import React from 'react'
 import "./Quote.css"
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
@@ -14,7 +14,7 @@ const Quote = () => {
             <FaQuoteLeft className="quote-icon" />
             <div className="quote-header">
             
-                <p>Celebrating Uncle John’s milestones has brought our family closer together. It’s a day filled with love, laughter, and unforgettable memories.</p>
+                <p>Celebrating Uncle Prince milestones has brought our family closer together. It’s a day filled with love, laughter, and unforgettable memories.</p>
             </div>
             <div className="person">
                 <h3>Julius Chimaobi</h3>

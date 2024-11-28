@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HeroComponent.css"
 import { FaArrowRight } from 'react-icons/fa';
-import heroPhoto from "../assets/heroImage1.jpeg"
+import heroPhoto from "../assets/mainPhotos/picture13.jpeg"
 const HeroComponent = () => {
   return (
     <div className='hero-component-cont containerWrapper'>

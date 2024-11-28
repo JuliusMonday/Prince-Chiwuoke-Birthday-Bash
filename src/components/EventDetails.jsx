@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGlassCheers, FaUtensils, FaMusic,FaCalendarCheck  } from 'react-icons/fa';
-import clock from "../assets/clock.jpeg"
+import clock from "../assets/mainPhotos/picture18.jpeg"
 import "./EventDetails.css"
 const EventDetails = () => {
   return (

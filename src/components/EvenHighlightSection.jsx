@@ -1,5 +1,5 @@
 import React from 'react'
-import EventPics from "../assets/highlight-image1.jpeg"
+import EventPics from "../assets/mainPhotos/picture25.jpeg"
 import { FaHeart } from 'react-icons/fa';
 import "./EventHighlightSection.css"
 const EvenHighlightSection = () => {
@@ -9,7 +9,7 @@ const EvenHighlightSection = () => {
        <div className="highlight-container containerWrapper">
             <div className="content-highlight">
                 <h2>Event Highlights</h2>
-                <p>Discover the exciting highlights of Uncle John's milestone birthday and wedding anniversary celebration. From heartwarming speeches to fun activities, there's something for everyone!</p>
+                <p>Discover the exciting highlights of Prince Chiwuoke milestone birthday and wedding anniversary celebration. From heartwarming speeches to fun activities, there's something for everyone!</p>
                 <button className="discover-more-btn">
                     Discover More
                     

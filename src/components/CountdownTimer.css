@@ -1,6 +1,6 @@
 .countdown-section {
     padding: 50px;
-    background: linear-gradient(to right, var(--green-color), #feb47b);
+    background: linear-gradient(to right, var(--green-color), #F9F1E5);
     color: white;
     height: 70vh;
   }
@@ -58,7 +58,7 @@
     }
 
     .countdown-section-p {
-        font-size: 16px; /* Adjust paragraph font size */
+        font-size: 12px; /* Adjust paragraph font size */
         width: 100%; /* Make paragraph full width */
         text-align: center; /* Center align text */
     }
@@ -77,8 +77,12 @@
 
     .time-unit span:first-child {
         font-size: 2rem; /* Adjust font size for the first child */
+        
     }
-
+    .time-unit span{
+      padding-left:20px;
+      font-size: 0.95rem;
+    }
     .details {
         margin-top: 30px; /* Reduce margin */
         flex-direction: column; /* Stack details vertically */

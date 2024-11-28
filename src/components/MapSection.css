@@ -26,7 +26,10 @@
     border-radius: 15px;
     cursor: pointer;
 }
-
+.map-link{
+    color:#fff;
+    text-decoration: none;
+}
 @media (max-width: 768px) {
     .map-container {
         flex-direction: column; /* Stack sections vertically */
@@ -42,9 +45,10 @@
 
     .map {
         width: 100%; /* Ensure the map takes full width */
+        color:red;
     }
 
-    .map button {
+    .map-btn >a{
         width: 100%; /* Make the button full width */
         padding: 12px; /* Increase padding for easier tapping */
         font-size: 1rem; /* Adjust font size */

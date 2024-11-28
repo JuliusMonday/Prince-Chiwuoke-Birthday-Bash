@@ -23,7 +23,7 @@ const MapSection = () => {
     }
   }, []);
 
-  const specificLocation = "Ubonikam, Onicha Ezinihitte, Mbaise, Imo State";
+  const specificLocation = "Ubonukam, Onicha Ezinihitte, Mbaise, Imo State";
 
   return (
     
@@ -34,22 +34,22 @@ const MapSection = () => {
         <p>{specificLocation}</p>
       </div>
       <div className="map">
-        <a
+        <a className="map-link"
           href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(specificLocation)}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Open in Google Maps</button>
+          <button className="map-btn">Open in Google Maps</button>
         </a>
         {location.lat && location.lng && (
           <div>
             <br/>
-            <a
+            <a className="map-link"
               href={`https://www.google.com/maps/search/?api=1&query=${location.lat},${location.lng}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button>Open Your Location in Google Maps</button>
+              <button className="map-btn">Open Your Location in Google Maps</button>
             </a>
           </div>
         )}
