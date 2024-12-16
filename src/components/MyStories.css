@@ -40,6 +40,7 @@
     font-size: 18px;
     color: #555;
     line-height: 1.9;
+    font-family: var(--font-lato);
   }
 
  /* Responsive design for mobile */
@@ -77,4 +78,29 @@
     .my-story-content p {
         font-size: 16px; /* Smaller font size for mobile */
     }
+
+    .my-story-early-years {
+        flex-direction: column-reverse;
+      }
+      
+      .my-story-career-highlights {
+     
+      }
+      
+      .my-story-family-moments {
+      
+      }
+      
+      .my-story-travel-adventures {
+        flex-direction: column-reverse;
+      }
+      
+      .my-story-hobbies-interests {
+        background-color: var(--white); /* White */
+      }
+      
+      .my-story-community-impact {
+        flex-direction: column-reverse;
+      }
+      
 }

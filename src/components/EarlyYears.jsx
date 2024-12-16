@@ -4,8 +4,8 @@ import EarlyYearsPhoto from "../assets/mainPhotos/picture23.jpeg"; // Replace wi
 
 const EarlyYears = () => {
   return (
-    <div className="my-story-container my-story-early-years">
-      <div className="my-story-sub-container">
+    <div className="my-story-container ">
+      <div className="my-story-sub-container my-story-early-years">
         <div className="my-story-content">
           <h2>Early Years</h2>
           <p>

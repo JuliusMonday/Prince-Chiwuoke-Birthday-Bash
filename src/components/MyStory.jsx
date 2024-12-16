@@ -7,7 +7,7 @@ const MyStory = () => {
     <div className="my-story-container">
       <div className="my-story-sub-container">
         <div className="my-story-image">
-          <img src={MyStoryPhoto} alt="Oparigwe Prince Chiwuoke" className='image-radius'/>
+          <img src={MyStoryPhoto} alt="Oparigwe Prince Chiwuoke" className='image-radius no-display'/>
         </div>
         <div className="my-story-content">
           <h2>My Story So Far</h2>

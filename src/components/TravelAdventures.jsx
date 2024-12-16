@@ -4,8 +4,8 @@ import TravelAdventuresPhoto from "../assets/mainPhotos/picture8.jpeg";
 
 const TravelAdventures = () => {
   return (
-    <div className="my-story-container my-story-travel-adventures">
-      <div className="my-story-sub-container">
+    <div className="my-story-container ">
+      <div className="my-story-sub-container my-story-travel-adventures">
         <div className="my-story-image">
           <img src={TravelAdventuresPhoto} alt="Travel Adventures" className='image-radius' />
         </div>

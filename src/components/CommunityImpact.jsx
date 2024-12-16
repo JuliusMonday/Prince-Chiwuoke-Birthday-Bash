@@ -4,8 +4,8 @@ import CommunityImpactPhoto from "../assets/mainPhotos/picture8.jpeg"; // Replac
 
 const CommunityImpact = () => {
   return (
-    <div className="my-story-container my-story-community-impact">
-      <div className="my-story-sub-container">
+    <div className="my-story-container ">
+      <div className="my-story-sub-container my-story-community-impact">
         <div className="my-story-image">
           <img src={CommunityImpactPhoto} alt="Community Impact" className='image-radius'/>
         </div>

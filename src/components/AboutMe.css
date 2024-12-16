@@ -37,6 +37,7 @@
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
   }
+ 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .about-me-container {
@@ -65,4 +66,5 @@
     .about-me-image img {
         width: 100%; /* Full width for images on mobile */
     }
+   
 }

@@ -53,6 +53,9 @@
     background-position: center;
     background-size: cover;
   }
+  .no-display{
+    display: block; /* Hide content */
+  }
   
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -93,4 +96,7 @@
         height: 80px; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Space below the image */
     }
+    .no-display{
+        display: none; /* Hide content */
+      }
 }

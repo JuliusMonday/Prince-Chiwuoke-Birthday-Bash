@@ -12,7 +12,7 @@ const AboutMe = () => {
                 </p>
             </div>
             <div className="about-me-image">
-                <img src={AboutMephoto} alt="Oparigwe Prince Chiwuoke" />
+                <img src={AboutMephoto} alt="Oparigwe Prince Chiwuoke"/>
             </div>
         </div>
       
