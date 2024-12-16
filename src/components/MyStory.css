@@ -1,0 +1,96 @@
+.my-story-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 70vh;
+  }
+  
+  .my-story-sub-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Full width of the container */
+    max-width: 1200px; /* Max width for larger screens */
+  }
+  
+  .my-story-image {
+    flex: 1; /* Equal width for the image section */
+    padding: 20px; /* Padding for inner content */
+  }
+  
+  .my-story-image img {
+    width: 100%; 
+    height: 60vh; 
+    border-radius: 8px;
+    object-fit: contain;
+    background-position: center;
+}
+
+  
+  .my-story-content {
+    flex: 1; 
+    padding: 10px; 
+  }
+  
+  .my-story-content h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .my-story-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.9;
+  }
+
+  .image-radius{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+    border: 5px solid #fff;
+    background-position: center;
+    background-size: cover;
+  }
+  
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .my-story-container {
+        padding: 10px; /* Reduce padding on mobile */
+    }
+
+    .my-story-sub-container {
+        flex-direction: column; /* Stack image and content vertically */
+        align-items: center; /* Center items */
+    }
+
+    .my-story-image {
+        padding: 10px; /* Reduce padding on mobile */
+        width: 100%; /* Full width */
+    }
+
+    .my-story-image img {
+        height: auto; /* Maintain aspect ratio */
+        max-height: 40vh; /* Limit height for mobile */
+    }
+
+    .my-story-content {
+        padding: 10px; /* Padding for content */
+        text-align: center; /* Center text on mobile */
+    }
+
+    .my-story-content h2 {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .my-story-content p {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+
+    .image-radius {
+        width: 80px; /* Smaller image size for mobile */
+        height: 80px; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Space below the image */
+    }
+}

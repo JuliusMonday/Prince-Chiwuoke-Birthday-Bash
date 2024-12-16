@@ -10,9 +10,9 @@ const EventDetails = () => {
     <div className='event-details1'>
         <h1>When & Where</h1>
         <div className="details1">
-            <p>Date: September 15, 2024</p>
-            <p>Time: 6:00 PM - 11:00 PM</p>
-            <p>Venue: Njoku's Compound Arugwueze Ubonukam, Onicha Ezinihitte, Mbaise, Imo State</p>
+            <p>Date: December 26, 2024</p>
+            <p>Time: 11:00 AM - 11:00 PM</p>
+            <p>Venue: Njoku's Compound Arugwueze, Ubonukam Onicha, Ezinihitte Mbaise, Imo State</p>
         </div>
         <div className="details2">
             <div className="details-item">

@@ -5,7 +5,7 @@ const InfoSection = () => {
     <div className='info-container containerWrapper'>
       <div className="info-items">
             <div className="info-item">
-                <h1>50</h1>
+                <h1>25</h1>
                 <p>Years Of Love</p>
             </div>
             <div className="info-item">
